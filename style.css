@@ -1,0 +1,19 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size:xx-large;
+    background:rgb(16,16,16);
+    color:rgb(220, 220, 220)
+}
+
+#distance {
+    width:1px;
+    height:50%;
+    float:left;
+}
+
+#text {
+    text-align:center;
+    clear: left;
+    margin:0px auto;          
+    position: relative;
+}
