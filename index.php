@@ -14,6 +14,6 @@ $index = rand(0,count($quotes)-1);
    </head>
    <body>
       <div id="distance"></div>
-      <div id="text">"Habe Mut, dich <?= $quotes[$index]?>"</div>
+      <div id="text">"Habe Mut, dich <?=$quotes[$index]?>."</div>
    </body>
 </html>
