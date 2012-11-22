@@ -17,6 +17,3 @@ $index = rand(0,count($quotes)-1);
       <div id="text">"Habe Mut, dich <?= $quotes[$index]?>"</div>
    </body>
 </html>
-
-
-?>
