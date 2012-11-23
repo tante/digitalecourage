@@ -14,7 +14,7 @@ $index = rand(0,count($quotes)-1);
    </head>
    <body>
       <div id="distance"></div>
-      <div id="text">"Habe Mut, dich <?php print(trim($quotes[$index]));?>."</div>
+      <div id="text">"Habe Mut, <?php print(trim($quotes[$index]));?>."</div>
 <div id="footer">Kontakt: <a href="http://twitter.com">@tante</a>, <a href="http://tante.cc/imprintimpressum/">Impressum</a>, <a href="https://github.com/tante/digitalecourage">Code</a>
 </div>
    </body>
